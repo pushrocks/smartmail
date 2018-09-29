@@ -1,0 +1,23 @@
+{
+  "name": "smartmail",
+  "version": "1.0.1",
+  "private": false,
+  "description": "a unified format for representing and dealing with mails",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "(tstest test/)",
+    "format": "(gitzone format)",
+    "build": "(tsbuild)"
+  },
+  "devDependencies": {
+    "@gitzone/tsbuild": "^2.0.22",
+    "@gitzone/tsrun": "^1.1.12",
+    "@gitzone/tstest": "^1.0.15",
+    "@pushrocks/tapbundle": "^3.0.7",
+    "@types/node": "^10.11.3"
+  },
+  "dependencies": {}
+}

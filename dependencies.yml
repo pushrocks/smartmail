@@ -1,0 +1,3 @@
+merge:
+  - ../gitignore
+  - ../ci_default
