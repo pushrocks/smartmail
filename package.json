@@ -1,6 +1,6 @@
 {
   "name": "smartmail",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "a unified format for representing and dealing with mails",
   "main": "dist/index.js",
