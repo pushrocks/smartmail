@@ -5,5 +5,15 @@
       "ts-node"
     ],
     "npmAccessLevel": "public"
+  },
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartmail",
+      "shortDescription": "a unified format for representing and dealing with mails",
+      "npmPackagename": "@pushrocks/smartmail",
+      "license": "MIT"
+    }
   }
 }
