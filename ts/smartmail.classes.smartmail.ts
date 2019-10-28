@@ -11,7 +11,7 @@ export interface ISmartmailOptions {
  */
 export class Smartmail {
   public options: ISmartmailOptions;
-  public attachments: plugins.smartfile.Smartfile[];
+  public attachments: plugins.smartfile.Smartfile[] = [];
 
   constructor(optionsArg: ISmartmailOptions) {
     this.options = optionsArg;
