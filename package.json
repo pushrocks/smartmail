@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@pushrocks/smartfile": "^7.0.6",
-    "@pushrocks/smartmustache": "^2.0.8"
+    "@pushrocks/smartmustache": "^2.0.9"
   },
   "files": [
     "ts/**/*",
