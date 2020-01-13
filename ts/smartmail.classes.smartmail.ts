@@ -1,19 +1,20 @@
 import * as plugins from './smartmail.plugins';
 
-export interface ISmartmailOptions {
+export interface ISmartmailOptions<T> {
   from: string;
   subject: string;
   body: string;
+  creationObjectRef?: T;
 }
 
 /**
  * a standard representation for mails
  */
-export class Smartmail {
-  public options: ISmartmailOptions;
+export class Smartmail<T> {
+  public options: ISmartmailOptions<T>;
   public attachments: plugins.smartfile.Smartfile[] = [];
 
-  constructor(optionsArg: ISmartmailOptions) {
+  constructor(optionsArg: ISmartmailOptions<T>) {
     this.options = optionsArg;
   }
 
