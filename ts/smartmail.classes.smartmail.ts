@@ -22,6 +22,10 @@ export class Smartmail<T> {
     this.attachments.push(smartfileArg);
   }
 
+  public getCretionObject(): T {
+    return this.options.creationObjectRef;
+  }
+
   public getSubject(dataArg: any = {}) {
     const smartmustache = new plugins.smartmustache.SmartMustache(this.options.subject);
     return smartmustache.applyData(dataArg);
