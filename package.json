@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartmail",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "private": false,
   "description": "a unified format for representing and dealing with mails",
   "main": "dist/index.js",
