@@ -22,7 +22,7 @@ export class Smartmail<T> {
     this.attachments.push(smartfileArg);
   }
 
-  public getCretionObject(): T {
+  public getCreationObject(): T {
     return this.options.creationObjectRef;
   }
 
