@@ -8,7 +8,7 @@ a unified format for representing and dealing with mails
 * [docs (typedoc)](https://pushrocks.gitlab.io/smartmail/)
 
 ## Status for master
-[![build status](https://gitlab.com/pushrocks/smartmail/badges/master/build.svg)](https://gitlab.com/pushrocks/smartmail/commits/master)
+[![pipeline status](https://gitlab.com/pushrocks/smartmail/badges/master/pipeline.svg)](https://gitlab.com/pushrocks/smartmail/commits/master)
 [![coverage report](https://gitlab.com/pushrocks/smartmail/badges/master/coverage.svg)](https://gitlab.com/pushrocks/smartmail/commits/master)
 [![npm downloads per month](https://img.shields.io/npm/dm/@pushrocks/smartmail.svg)](https://www.npmjs.com/package/@pushrocks/smartmail)
 [![Known Vulnerabilities](https://snyk.io/test/npm/@pushrocks/smartmail/badge.svg)](https://snyk.io/test/npm/@pushrocks/smartmail)
@@ -17,6 +17,10 @@ a unified format for representing and dealing with mails
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)](https://prettier.io/)
 
 ## Usage
+
+## Contribution
+
+We are always happy for code contributions. If you are not the code contributing type that is ok. Still, maintaining Open Source repositories takes considerable time and thought. If you like the quality of what we do and our modules are useful to you we would appreciate a little monthly contribution: You can [contribute one time](https://lossless.link/contribute-onetime) or [contribute monthly](https://lossless.link/contribute). :)
 
 
 ## Contribution
