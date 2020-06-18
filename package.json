@@ -22,6 +22,7 @@
     "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {
+    "@pushrocks/smartdns": "^4.0.3",
     "@pushrocks/smartfile": "^7.0.6",
     "@pushrocks/smartmustache": "^2.0.9"
   },
