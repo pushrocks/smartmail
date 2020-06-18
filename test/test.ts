@@ -10,6 +10,23 @@ tap.test('should create an instance of EmailAddressValidator', async () => {
 
 tap.test('should validate an email', async () => {
   const result = await emailAddressValidatorInstance.validate('sandbox@bleu.de');
+  expect(result.freemail).to.be.false;
+  expect(result.disposable).to.be.false;
+  console.log(result);
+});
+
+tap.test('should recognize an email as freemail', async () => {
+  const result = await emailAddressValidatorInstance.validate('sandbox@gmail.com');
+  expect(result.freemail).to.be.true;
+  expect(result.disposable).to.be.false;
+  console.log(result);
+});
+
+tap.test('should recognize an email as disposable', async () => {
+  const result = await emailAddressValidatorInstance.validate('sandbox@gmx.de');
+  expect(result.freemail).to.be.false;
+  expect(result.disposable).to.be.true;
+  console.log(result);
 });
 
 tap.test('should create a SmartMail', async () => {

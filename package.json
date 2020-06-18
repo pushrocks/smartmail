@@ -24,7 +24,8 @@
   "dependencies": {
     "@pushrocks/smartdns": "^4.0.3",
     "@pushrocks/smartfile": "^7.0.12",
-    "@pushrocks/smartmustache": "^2.0.9"
+    "@pushrocks/smartmustache": "^2.0.9",
+    "@pushrocks/smartrequest": "^1.1.47"
   },
   "files": [
     "ts/**/*",
