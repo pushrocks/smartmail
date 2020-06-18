@@ -12,7 +12,7 @@ tap.test('should validate an email', async () => {
   const result = await emailAddressValidatorInstance.validate('sandbox@bleu.de');
 });
 
-tap.test('first test', async () => {
+tap.test('should create a SmartMail', async () => {
   const testSmartmail = new smartmail.Smartmail({
     body: 'hi there',
     from: 'noreply@mail.lossless.com',
