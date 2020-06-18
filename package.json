@@ -3,27 +3,27 @@
   "version": "1.0.13",
   "private": false,
   "description": "a unified format for representing and dealing with mails",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist_ts/index.js",
+  "typings": "dist_ts/index.d.ts",
   "author": "Lossless GmbH",
   "license": "UNLICENSED",
   "scripts": {
     "test": "(tstest test/)",
     "format": "(gitzone format)",
-    "build": "(tsbuild)"
+    "build": "(tsbuild --web)"
   },
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.1.17",
-    "@gitzone/tsrun": "^1.2.8",
-    "@gitzone/tstest": "^1.0.28",
-    "@pushrocks/tapbundle": "^3.2.0",
-    "@types/node": "^13.1.6",
-    "tslint": "^5.20.1",
+    "@gitzone/tsbuild": "^2.1.24",
+    "@gitzone/tsrun": "^1.2.12",
+    "@gitzone/tstest": "^1.0.33",
+    "@pushrocks/tapbundle": "^3.2.1",
+    "@types/node": "^14.0.13",
+    "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {
     "@pushrocks/smartdns": "^4.0.3",
-    "@pushrocks/smartfile": "^7.0.6",
+    "@pushrocks/smartfile": "^7.0.12",
     "@pushrocks/smartmustache": "^2.0.9"
   },
   "files": [
